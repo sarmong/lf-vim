@@ -9,6 +9,8 @@ endif
 
 let b:current_syntax = "lf"
 
+set commentstring=# %s
+
 "{{{ Comment Matching
 syn match    lfComment        '#.*$'
 "}}}
