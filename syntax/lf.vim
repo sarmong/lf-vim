@@ -9,7 +9,7 @@ endif
 
 let b:current_syntax = "lf"
 
-set commentstring=# %s
+setlocal commentstring=#\ %s
 
 "{{{ Comment Matching
 syn match    lfComment        '#.*$'
